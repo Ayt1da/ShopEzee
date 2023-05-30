@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "ShopEzee",
+  "version": "1.0.0",
+  "description": "ShopEzee is a chrome extension that helps you to make better buying decisions.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
